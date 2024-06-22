@@ -130,9 +130,8 @@ img {
 }
 
 .nav-logo{
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-semi-bold);
-    color: var(--first-color);
+    width: 100px;
+    margin-top: 10px;
 }
 
 .nav-toggle, .nav-close{
@@ -155,7 +154,13 @@ img {
        -webkit-backdrop-filter: blur(32px);
        transition: top .4s;
     }
+
+    .nav-logo{
+        width: 80px;
+    }
 }
+
+
 
 .nav-list{
     text-align: center;
