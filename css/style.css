@@ -19,7 +19,7 @@
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
-  --biggest-font-size: 10rem;
+  --biggest-font-size: 9rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -199,6 +199,58 @@ img {
 
 
 /*=============== HOME ===============*/
+.home-container{
+  position: relative;
+  padding-block: 7rem 1rem;
+  row-gap: 2.5rem;
+}
+
+.home-content{
+  position: relative;
+  display: grid;
+  justify-self: center;
+}
+
+.home-img{
+  width: 220px;
+}
+
+.home-title{
+  font-size: var(--biggest-font-size);
+  display: flex;
+  column-gap: .25rem;
+  color: var(--first-color);
+  position: absolute;
+  top: -1rem;
+  justify-self: center;
+}
+
+.home-title span:nth-child(2), span:nth-child(3){
+  z-index: -1;
+}
+
+.home-tooltip{
+  position: absolute;
+  top: -.5rem;
+  right: 1.5rem;
+}
+
+.home-tooltip-img{
+  width: 60px;
+}
+
+.home-tooltip-text{
+  background: var(--gradient-color);
+  padding: .25rem .75rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  border-radius: 4rem;
+  font-size: var(--small-font-size);
+  position: absolute;
+  transform: translate(60px, -40px);
+  white-space: nowrap;
+}
+
 
 
 /*=============== BUTTON ===============*/
