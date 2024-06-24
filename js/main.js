@@ -40,7 +40,7 @@ window.addEventListener('scroll', blurHeader)
 let swiperColors = new Swiper('.color-swiper', {
     loop: true,
     slidesPerView: 'auto',
-    ceteredSlides: 'auto',
+    centeredSlides: 'auto',
     grabCursor: true,
 
     breakpoints:{
