@@ -102,7 +102,7 @@ img {
   padding-block: 5rem 1rem;
 }
 
-.section__title {
+.section-title {
   font-size: var(--h2-font-size);
   text-align: center;
   margin-bottom: 1.5rem;
@@ -352,8 +352,29 @@ img {
   justify-self: center;
 }
 
-/*=============== FAVORITE ===============*/
+/*=============== COLOR VARIANTS ===============*/
+.color-container{
+  padding-top: 2rem;
+}
 
+.color-article{
+  width: 220px;
+  display: grid;
+  justify-items: center;
+  transition: filter .3s, scale .3s;
+}
+
+.color-img{
+  width: 220px;
+  margin-bottom: 1.5rem;
+}
+
+.color-model{
+  background: var(--gradient-color);
+  padding: .5rem 1.5rem;
+  border-radius: 4rem;
+  color: var(--white-color);
+}
 
 /* Swiper class */
 
