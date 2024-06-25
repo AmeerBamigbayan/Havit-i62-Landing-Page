@@ -46,7 +46,7 @@ let swiperColors = new Swiper('.color-swiper', {
     breakpoints:{
         768:{
             slidesPerView: 3,
-        }
+        } 
     }
   })
 
