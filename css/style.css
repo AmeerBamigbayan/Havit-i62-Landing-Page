@@ -385,8 +385,71 @@ img {
 }
 
 /*=============== MODEL ===============*/
+.specs-container{
+  padding-top: 2rem;
+  row-gap: 2.5rem;
+}
 
+.specs-content{
+  position: relative;
+  justify-self: center;
+}
 
+.specs-img{
+  width: 280px;
+}
+
+.specs-tooltip-img{
+  width: 60px;
+}
+
+.specs-tooltip-text{
+  background: var(--gradient-color);
+  padding: .25rem .75rem;
+  border-radius: 4rem;
+  color: var(--white-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  position: absolute;
+  transform: translate(60px, -40px);
+  white-space: nowrap;
+}
+
+.specs-tooltip-1, .specs-tooltip-2, .specs-tooltip-4{
+  transform: scaleX(-1);
+}
+
+.specs-tooltip-1 .specs-tooltip-text, .specs-tooltip-2 .specs-tooltip-text, .specs-tooltip-4 .specs-tooltip-text{
+  transform: translate(60px, -40px) scaleX(-1);
+}
+
+.specs-tooltip{
+  position: absolute;
+}
+
+.specs-tooltip-1{
+  top: .1rem;
+  left: 5rem;
+}
+
+.specs-tooltip-2{
+  top: 9.1rem;
+  right: 1.5rem;
+}
+
+.specs-tooltip-3{
+  bottom: 13rem;
+  left: 1.5rem;
+}
+
+.specs-tooltip-4{
+  bottom: 2rem;
+  right: 4em;
+}
+
+.specs-button{
+  justify-self: center;
+}
 /*=============== SPONSOR ===============*/
 
 
