@@ -447,7 +447,7 @@ img {
 
 .specs-tooltip-4{
   bottom: 2rem;
-  right: 4em;
+  right: 4rem;
 }
 
 .specs-button{
@@ -611,7 +611,56 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 340px) {
+  .container{
+    margin-inline: 1rem;
+  }
 
+  .home-img{
+    width: 180px;
+  }
+
+  .home-title{
+    font-size: 8rem;
+  }
+
+  .specs-img{
+    width: 220px;
+  }
+
+  .specs-tooltip-text{
+    font-size: var(--smaller-font-size);
+    transform: translate(42px, -40px);
+  }
+
+  .specs-tooltip-1 .specs-tooltip-text, .specs-tooltip-2 .specs-tooltip-text{
+    transform: translate(40px, -40px) scaleX(-1);
+  }
+
+  .specs-tooltip-1{
+    top: -.5rem;
+    left: 3.5rem;
+  }
+
+  .specs-tooltip-2{
+    top: 7rem;
+    right: 1rem;
+  }
+
+  .specs-tooltip-3{
+    bottom: 11rem;
+    left: 1.2rem;
+  }
+
+  .specs-tooltip-4{
+    right: 3rem;
+    bottom: 1.3rem;
+  }
+
+  .sponsor-container{
+    gap: 4rem 2rem;
+  }
+}
 
 /* For medium devices */
 
