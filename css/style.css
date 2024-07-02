@@ -570,6 +570,10 @@ img {
   font-weight: var(--font-semi-bold);
 }
 
+.footer-ameer:hover{
+  color: var(--white-color);
+}
+
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
