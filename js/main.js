@@ -82,3 +82,18 @@ const scrollActive = () =>{
 window.addEventListener('scroll', scrollActive)
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true, //
+})
+
+sr.reveal(`.home-social, .color-container, .sponsor-container, .footer`)
+// sr.reveal (`.home-title span:nth-child(1)`, {origin: 'left', opacity: 1})
+//sr.reveal (`.home-title span:nth-child(4)`, {origin: 'right', opacity: 1})
+//sr.reveal (`.home-title span:nth-child(5)`, {origin: 'right', opacity: 1})
+sr.reveal(`.home-tooltip, .home-button, .specs-button`, {origin: 'bottom'})
+sr.reveal(`.about-data`, {origin: 'left'})
+sr.reveal(`.about-img, .specs-tooltip`, {origin: 'right'})
