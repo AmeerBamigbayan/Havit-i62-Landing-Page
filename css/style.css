@@ -717,6 +717,11 @@ img {
     align-items: center;
   }
 
+
+  .home-tooltip{
+    right: 5rem;
+  }
+
   .sponsor-container{
     grid-template-columns: repeat(4, max-content);
   }
