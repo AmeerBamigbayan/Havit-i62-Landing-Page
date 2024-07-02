@@ -767,6 +767,15 @@ img {
     transform: translate(82px, -52px);
   }
 
+  .home-social{
+    top: 40rem;
+    left: -4rem;
+    overflow: visible;
+    bottom: 0;
+    align-items: center;
+    max-width: max-content;
+  }
+
   .home-social-text{
     font-size: var(--normal-font-size);
   }
