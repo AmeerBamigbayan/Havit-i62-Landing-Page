@@ -238,6 +238,7 @@ img {
 
 .home-img{
   width: 220px;
+  animation: bounceTop 3s linear infinite;
 }
 
 .home-title{
@@ -258,6 +259,7 @@ img {
   position: absolute;
   top: -.5rem;
   right: 1.5rem;
+  animation: bounceTop 3s linear infinite;
 }
 
 .home-tooltip-img{
